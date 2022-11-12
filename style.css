@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ebebeb;
+  height: 300px;
+  width: 500px;
+}
+#title {
+  text-align: center;
+  background-color: #323232;
+  color: white;
+}
+#quote {
+  font-size: 30px;
+  padding: 10px;
+  height: 100px;
+}
+#author {
+  font-size: 20px;
+  float: right;
+  padding: 10px;
+}
+#btn {
+  position: relative;
+  top: 120px;
+  left: 180px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
